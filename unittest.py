@@ -7,7 +7,7 @@ class TestCalculator(unittest.TestCase):
 
     def setUp(self):
         self.root = Tk()
-        self.root.withdraw()  # Позволяет создавать тесты без показа графического интерфейса
+        self.root.withdraw()  
 
     def tearDown(self):
         self.root.destroy()
