@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'calculator = calc_pr:main',  
+            'calculator = calc:main',  
         ],
     },
     install_requires=[
